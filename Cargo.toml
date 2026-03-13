@@ -1,0 +1,28 @@
+[package]
+name = "rust_terminal"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bishwarup Das"]
+description = "A Linux-like terminal shell implemented in Rust"
+
+license = "MIT"
+repository = "https://github.com/Bishwarup-Das/rust-terminal"
+homepage = "https://github.com/Bishwarup-Das/rust-terminal"
+readme = "README.md"
+
+keywords = ["shell", "terminal", "unix", "cli", "rust"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+# rustyline: Provides readline-like functionality with command history,
+# tab completion, and line editing support.
+rustyline = "14.0"
+
+# colored: Enables ANSI color output for the terminal prompt and messages.
+colored = "2.1"
+
+# whoami: Retrieves current username and hostname for the prompt display.
+whoami = "1.5"
+
+[profile.release]
+opt-level = 3
