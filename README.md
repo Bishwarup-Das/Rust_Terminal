@@ -48,7 +48,7 @@ cargo --version   # e.g. cargo 1.78.0 (...)
 Clone or extract the project, then build it:
 
 ```bash
-cd rust_terminal
+cd Rust_Terminal
 
 # Debug build (faster compile, includes debug symbols)
 cargo build
