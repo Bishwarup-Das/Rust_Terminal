@@ -6,8 +6,8 @@ authors = ["Bishwarup Das"]
 description = "A Linux-like terminal shell implemented in Rust"
 
 license = "MIT"
-repository = "https://github.com/Bishwarup-Das/Rust_Terminal"
-homepage = "https://github.com/Bishwarup-Das/Rust_Terminal"
+repository = "https://github.com/Bishwarup-Das/rust_terminal"
+homepage = "https://github.com/Bishwarup-Das/rust_terminal"
 readme = "README.md"
 
 keywords = ["shell", "terminal", "unix", "cli", "rust"]
